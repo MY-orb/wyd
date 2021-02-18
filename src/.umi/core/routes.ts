@@ -1,20 +1,20 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType } from '/Users/sigmayun/Desktop/my-orb/node_modules/umi/node_modules/@umijs/runtime';
+import { ApplyPluginsType } from '/Users/sigmayun/Desktop/wyd/node_modules/umi/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
 export function getRoutes() {
   const routes = [
   {
-    "path": "/",
-    "component": require('@/pages/index').default,
-    "exact": true
+    "path": "/home",
+    "exact": true,
+    "component": require('@/pages/home/index.tsx').default
   },
   {
-    "path": "/home",
-    "component": require('@/pages/home/index').default,
-    "exact": true
+    "path": "/",
+    "exact": true,
+    "component": require('@/pages/index.tsx').default
   }
 ];
 

@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/sigmayun/Desktop/my-orb/node_modules/umi/node_modules/@umijs/runtime';
-import { renderClient } from '/Users/sigmayun/Desktop/my-orb/node_modules/umi/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from '/Users/sigmayun/Desktop/wyd/node_modules/umi/node_modules/@umijs/runtime';
+import { renderClient } from '/Users/sigmayun/Desktop/wyd/node_modules/umi/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 
