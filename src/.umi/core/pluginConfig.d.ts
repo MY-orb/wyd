@@ -172,7 +172,7 @@ nodeModulesTransform?: {
 type?: ("all" | "none")
 exclude?: string[]
 }
-outputPath?: ""
+outputPath?: "./"
 plugins?: string[]
 postcssLoader?: {
 
