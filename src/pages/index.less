@@ -1,3 +1,38 @@
-.title {
-  background: rgb(121, 242, 157);
+
+.box{
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  background-image: url("./../images/bg.png");
+  .content{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow-y: auto;
+    background: #fff;
+    .title{
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background: #40a9ff;
+    }
+    .contentBot{
+      display: flex;
+      .left{
+        width: 50%;
+        height: 1000px;
+        border: 1px solid #999;
+        box-sizing: border-box;
+      }
+      .right{
+        width: 50%;
+        height: 1000px;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+      }
+    }
+
+  }
 }
