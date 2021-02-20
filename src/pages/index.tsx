@@ -79,10 +79,9 @@ const IndexPage = observer(()=>{
                             <p>负责内容：</p>
                             <p>参与技术选型工作</p>
                             <p>负责商城订单的设计与主要开发</p>
-                            <p>负责学员课表的设计与主要开发</p>
                             <p>负责学员课程的设计与开发</p>
                             <p>开发自定义组件，维护项目公共组件</p>
-                            <p>技术栈： React/ TypeScript/ Taro/ MobX/ Scss</p>
+                            <p className={styles.highLight}>技术栈： React/ TypeScript/ Taro/ MobX/ Scss</p>
 
                             <p className={styles.companyName}>私塾云协同 2020/11 - 至今</p>
                             <p>项目介绍：晞格玛·云是专为教育行业打造的员工协同APP端平台，配合晞格玛·云移动端使用，赋能教育，提高员工工作效率，打通企业内部信息流，为校区运营提供全方位解决方案。</p>
@@ -92,7 +91,7 @@ const IndexPage = observer(()=>{
                             <p>负责外呼三方sdk对接</p>
                             <p>开发自定义组件，维护项目公共组件</p>
                             <p>制定团队RN开发UI规范</p>
-                            <p>技术栈： React Native/ TypeScript/ Antd/ MobX</p>
+                            <p className={styles.highLight}>技术栈： React Native/ TypeScript/ Antd/ MobX</p>
 
                             <p className={styles.companyName}>晞格玛·云 2019/09 - 至今</p>
                             <p>项目介绍：晞格玛·云是专为教育行业打造的员工协同PC端平台，配合晞格玛·云移动端使用，赋能教育，提高员工工作效率，打通企业内部信息流，为校区运营提供全方位解决方案。</p>
@@ -103,7 +102,7 @@ const IndexPage = observer(()=>{
                             <p>负责外呼功能，与第三方对接</p>
                             <p>协助主管完成云盘功能的开发</p>
                             <p>开维护项目公共组件，如弹窗、人员选择器、筛选组件等</p>
-                            <p>技术栈： Vue/ Electron/ Element/ ECharts/ Scss</p>
+                            <p className={styles.highLight}>技术栈： Vue/ Electron/ Element/ ECharts/ Scss</p>
 
                             {/*<p className={styles.companyName}>农业执法 Hybrid APP 2019/05 - 2019/09</p>*/}
                             {/*<p>项目介绍：维甄科技为农村县/市执法团队打造的纠察执法APP；该系统为执法团队执法纠察提供信息服务保障；帮助政府团队高效率的记录分析企业的行为</p>*/}
@@ -125,7 +124,7 @@ const IndexPage = observer(()=>{
                             <p>负责上传图片、图片裁剪功能设计与开发</p>
                             <p>负责动态图表功能的设计与开发</p>
                             <p>开发自定义组件，维护项目公共组件</p>
-                            <p>技术栈： React/ Antd/ ECharts/ Scss</p>
+                            <p className={styles.highLight}>技术栈： React/ Antd/ ECharts/ Scss</p>
 
                             <p className={styles.companyName}>华晨宝马后台管理 2018/04 - 2019/11</p>
                             <p>项目介绍：魅客科技为华晨宝马打造的后台管理服务系统</p>
@@ -135,7 +134,7 @@ const IndexPage = observer(()=>{
                             <p>负责鉴权功能设计与开发</p>
                             <p>负责自定义表单功能的设计与开发</p>
                             <p>开发自定义组件，维护项目公共组件</p>
-                            <p>技术栈： React/ Antd/ ECharts/ Scss</p>
+                            <p className={styles.highLight}>技术栈： React/ Antd/ ECharts/ Scss</p>
 
                         </div>
                     </div>

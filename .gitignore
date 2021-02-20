@@ -65,5 +65,8 @@ settings.json
 # code-push
 /*.zip
 
+#build
+dist/
+
 # lock
 *.lock
