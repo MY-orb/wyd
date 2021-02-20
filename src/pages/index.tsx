@@ -48,7 +48,6 @@ const IndexPage = observer(()=>{
                         </div>
                     </div>
                     <div className={styles.right}>
-                        <div>
                             <p className={styles.rightTitle}>工作经历-</p>
                             <p className={styles.companyName}>杭州晞格玛云网络科技有限责任公司 前端工程师 2019/09 - 至今</p>
                             <p className={styles.workCon}>工作内容：</p>
@@ -71,8 +70,9 @@ const IndexPage = observer(()=>{
                             <p>与后台工程师协作，高效完成产品的数据交互、动态信息展示；</p>
                             <p>通过一些前端技术手段，提高用户体验并满足性能要求；</p>
                             <p>后台管理项目搭建与开发</p>
-                        </div>
-                        <div style={{marginTop:10}}>
+
+                            <p className={styles.rightTitle}>专业技能-</p>
+                            <p className={styles.companyName}>React React Native Mobx TypeScript Taro Antd ECharts Electron Umi</p>
                             <p className={styles.rightTitle}>项目经历-</p>
                             <p className={styles.companyName}>国际私塾学府公众号H5 2020/11 - 至今</p>
                             <p>项目介绍：国际私塾学府公众号H5是专为在校区上课的学员及家长打造的H5平台，家长可以及时了解学员的上课进度。课后学员可以通过平台观看讲义，并及时给出课程评价。</p>
@@ -136,7 +136,8 @@ const IndexPage = observer(()=>{
                             <p>开发自定义组件，维护项目公共组件</p>
                             <p className={styles.highLight}>技术栈： React/ Antd/ ECharts/ Scss</p>
 
-                        </div>
+                            <p className={styles.rightTitle}>教育经历-</p>
+                            <p className={styles.companyName}>信阳师范学院 本科 电子科学与技术 2013-2017 </p>
                     </div>
                 </div>
             </div>

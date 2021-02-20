@@ -20,21 +20,27 @@
     ]
   },
   "dependencies": {
+    "@ant-design/icons": "^4.5.0",
     "@ant-design/pro-layout": "^6.5.0",
+    "@types/react-syntax-highlighter": "^13.5.0",
     "@umijs/preset-react": "1.x",
     "umi": "^3.3.7"
   },
   "devDependencies": {
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-highlight": "^0.12.2",
     "@umijs/test": "^3.3.7",
     "lint-staged": "^10.0.7",
+    "mobx": "^6.1.7",
+    "mobx-react": "^7.1.0",
     "prettier": "^2.2.0",
     "react": "17.x",
     "react-dom": "17.x",
     "typescript": "^4.1.2",
-    "mobx": "^6.1.7",
-    "mobx-react": "^7.1.0",
+    "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "^15.4.3",
+    "remark-gfm": "^1.0.0",
     "yorkie": "^2.0.0"
   }
 }
