@@ -1,7 +1,6 @@
 import { history } from 'umi';
 import styles from './index.less'
 import { observer, useLocalObservable } from 'mobx-react'
-import avatar from '@/images/avatar.png'
 
 const storeInitial = {
     context: 'test',
@@ -20,7 +19,7 @@ const IndexPage = observer(()=>{
             <div className={styles.content}>
                 <div className={styles.title}>
                     <div>
-                        <img className={styles.img} src={avatar}/>
+                        <img className={styles.img} src={'https://my-orb.github.io/wyd/img/avatar.png'}/>
                     </div>
                     <div>
                         <p className={styles.name}>王以栋</p>
