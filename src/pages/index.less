@@ -1,48 +1,86 @@
 p{
   margin-bottom: 0;
+  font-size: 14px;
 }
 
 .box{
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
-  background-image: url("./../images/bg.png");
+  background: url("./../images/bg.png") center no-repeat;
+  background-size: cover;
   .content{
     width: 80%;
     margin: 0 auto;
     border-radius: 15px;
-    background: #fff;
     .title{
-      height: 200px;
+      height: 150px;
       display: flex;
       align-items: center;
-      flex-direction: column;
-      justify-content: center;
+      flex-direction: row;
       width: 100%;
       border-radius: 15px;
-      background: #40a9ff;
-      .titleText{
-        color: #fff;
+      .img{
+        width: 75px;
+        height: 75px;
+        border-radius: 10px;
+        margin-right: 32px;
+      }
+      .name{
+        color: #000;
         font-size: 30px;
         cursor: pointer;
+      }
+      .intro{
+        //color: #fff;
+        font-size: 12px;
       }
     }
     .contentBot{
       display: flex;
-      justify-content: space-around;
       .left{
-        width: 30%;
-        height: 1000px;
-        //border: 1px solid #999;
-        //border-radius: 15px;
+        width: 21%;
         box-sizing: border-box;
+        .goBlog{
+          cursor: pointer;
+          color: #40a9ff;
+        }
+        .info{
+          width: 100%;
+          padding: 15px;
+          height: 235px;
+          background: #E8EDFF 100%;
+          margin-bottom: 10px;
+          border-radius: 5px;
+        }
+        .phone{
+          width: 100%;
+          padding: 15px;
+          border-radius: 5px;
+          height: 235px;
+          background: #E6F4FF 100%;
+        }
       }
       .right{
-        width: 50%;
-        height: 1000px;
-        //border-radius: 15px;
-        //border: 1px solid #ddd;
+        width: 78%;
+        padding: 15px;
+        margin-left: 1%;
+        background: #fff;
+        border-radius: 5px;
         box-sizing: border-box;
+        .rightTitle{
+          font-size: 22px;
+          color: #4a4a4a;
+        }
+        .companyName{
+          margin-top: 10px;
+          font-size: 18px;
+          color: #2a2a2a;
+        }
+        .workCon{
+          font-size: 16px;
+          color: #000;
+        }
       }
     }
   }
