@@ -2,6 +2,25 @@ p{
   margin-bottom: 0;
   font-size: 14px;
 }
+@media screen and (max-width: 720px) {
+  /*当屏幕尺寸小于720px时，应用下面的CSS样式*/
+  /*你的css代码*/
+  .content{
+    width: 100vw;
+    padding: 5px;
+    .contentBot{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      .left{
+        width: 78% !important;
+        margin-left: 1% ;
+        margin-bottom: 10px;
+      }
+
+    }
+  }
+}
 
 .box{
   width: 100vw;
