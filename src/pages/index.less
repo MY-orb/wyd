@@ -6,16 +6,19 @@ p{
   /*当屏幕尺寸小于720px时，应用下面的CSS样式*/
   /*你的css代码*/
   .content{
-    width: 100vw;
+    width: 100%;
     padding: 5px;
     .contentBot{
-      width: 100vw;
+      width: 100%;
       display: flex;
       flex-direction: column;
       .left{
-        width: 78% !important;
-        margin-left: 1% ;
+        width: 100% !important;
         margin-bottom: 10px;
+      }
+      .right{
+        width: 100% !important;
+        margin-left: 0 !important;
       }
 
     }
