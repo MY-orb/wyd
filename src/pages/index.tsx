@@ -48,7 +48,14 @@ const IndexPage = observer(()=>{
                     </div>
                     <div className={styles.right}>
                             <p className={styles.rightTitle}>工作经历-</p>
-                            <p className={styles.companyName}>杭州晞格玛云网络科技有限责任公司 前端工程师 2019/09 - 至今</p>
+                            <p className={styles.companyName}>杭州趣企信息技术有限责任公司 前端工程师 2021/03 - 2022/03</p>
+                            <p className={styles.workCon}>工作内容：</p>
+                            <p>协助搭建项目框架，为项目提供开发环境</p>
+                            <p>维护公司多个私有库，为业务需求提供技术支持</p>
+                            <p>与后端协作，高效完成产品需求</p>
+                            <p>需求评审、与产品人员调研三方产品</p>
+
+                            <p className={styles.companyName}>杭州选校互动互联网科技有限责任公司 前端工程师 2021/03 - 2022/03</p>
                             <p className={styles.workCon}>工作内容：</p>
                             <p>协助搭建项目框架，为项目提供开发环境</p>
                             <p>维护公司多个私有库，为业务需求提供技术支持</p>
@@ -56,19 +63,20 @@ const IndexPage = observer(()=>{
                             <p>需求评审、与产品人员调研三方产品</p>
                             <p>为web端项目编写技术手册，定期组织召开CodeReview</p>
 
-                            <p className={styles.companyName}>杭州维甄科技有限公司 web前端 2018/11 - 2019/09</p>
+                            <p className={styles.companyName}>杭州晞格玛云网络科技有限责任公司 前端工程师 2019/09 - 2021/03</p>
+                            <p className={styles.workCon}>工作内容：</p>
+                            <p>协助搭建项目框架，为项目提供开发环境</p>
+                            <p>维护公司多个私有库，为业务需求提供技术支持</p>
+                            <p>与后端协作，高效完成产品需求</p>
+                            <p>需求评审、与产品人员调研三方产品</p>
+                            <p>为web端项目编写技术手册，定期组织召开CodeReview</p>
+
+                            <p className={styles.companyName}>杭州维甄科技有限公司 web前端 2017/09 - 2019/09</p>
                             <p className={styles.workCon}>工作内容：</p>
                             <p>协助主程搭建项目框架，为项目提供开发环境</p>
                             <p>与后端协作，高效完成产品的数据交互、动态信息展示</p>
                             <p>为北京通州、青海德令哈农安信用建设提供大数据屏的技术支持</p>
                             <p>为web端项目编写技术手册</p>
-
-                            <p className={styles.companyName}>武汉魅客科技有限公司 web前端 2017/09 - 2018/11</p>
-                            <p className={styles.workCon}>工作内容：</p>
-                            <p>主要负责前端的App的开发工作；</p>
-                            <p>与后台工程师协作，高效完成产品的数据交互、动态信息展示；</p>
-                            <p>通过一些前端技术手段，提高用户体验并满足性能要求；</p>
-                            <p>后台管理项目搭建与开发</p>
 
                             <p className={styles.rightTitle}>专业技能-</p>
                             <p className={styles.companyName}>React React Native Mobx TypeScript Taro Antd ECharts Electron Umi</p>
@@ -102,38 +110,6 @@ const IndexPage = observer(()=>{
                             <p>协助主管完成云盘功能的开发</p>
                             <p>开维护项目公共组件，如弹窗、人员选择器、筛选组件等</p>
                             <p className={styles.highLight}>技术栈： Vue/ Electron/ Element/ ECharts/ Scss</p>
-
-                            {/*<p className={styles.companyName}>农业执法 Hybrid APP 2019/05 - 2019/09</p>*/}
-                            {/*<p>项目介绍：维甄科技为农村县/市执法团队打造的纠察执法APP；该系统为执法团队执法纠察提供信息服务保障；帮助政府团队高效率的记录分析企业的行为</p>*/}
-                            {/*<p>负责内容：</p>*/}
-                            {/*<p>负责项目框架选型并且搭建</p>*/}
-                            {/*<p>负责打卡位置解析展示</p>*/}
-                            {/*<p>负责表单信息录入功能的设计与开发</p>*/}
-                            {/*<p>负责上传图片功能设计与开发</p>*/}
-                            {/*<p>开发自定义组件，维护项目公共组件</p>*/}
-                            {/*<p>技术栈： React/ Antd/ Scss</p>*/}
-
-                            <p className={styles.companyName}>农安信用 2018/11 - 2019/09</p>
-                            <p>项目介绍：维甄科技为农村县/市打造的企业信用评估后台管理系统；该系统通过导入相关企业的信用档案，从而算出对应企业的信用分，为政府提供信用一体化、信用可视化服务；并且生成对应县/市信用大屏数据动态图表展示</p>
-                            <p>负责内容：</p>
-                            <p>负责项目框架选型并且搭建</p>
-                            <p>负责系统二期升级</p>
-                            <p>负责Excel数据导入并在系统中展示对应数据</p>
-                            <p>负责鉴权功能设计与开发</p>
-                            <p>负责上传图片、图片裁剪功能设计与开发</p>
-                            <p>负责动态图表功能的设计与开发</p>
-                            <p>开发自定义组件，维护项目公共组件</p>
-                            <p className={styles.highLight}>技术栈： React/ Antd/ ECharts/ Scss</p>
-
-                            <p className={styles.companyName}>华晨宝马后台管理 2018/04 - 2019/11</p>
-                            <p>项目介绍：魅客科技为华晨宝马打造的后台管理服务系统</p>
-                            <p>负责内容：</p>
-                            <p>负责项目框架选型并且搭建</p>
-                            <p>负责Excel数据导入并在系统中展示对应数据</p>
-                            <p>负责鉴权功能设计与开发</p>
-                            <p>负责自定义表单功能的设计与开发</p>
-                            <p>开发自定义组件，维护项目公共组件</p>
-                            <p className={styles.highLight}>技术栈： React/ Antd/ ECharts/ Scss</p>
 
                             <p className={styles.rightTitle}>教育经历-</p>
                             <p className={styles.companyName}>信阳师范学院 本科 电子科学与技术 2013-2017 </p>
