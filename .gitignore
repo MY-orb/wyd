@@ -67,6 +67,7 @@ settings.json
 
 #build
 dist/
+src/.umi
 
 # lock
 *.lock
