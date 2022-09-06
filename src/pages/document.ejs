@@ -3,42 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="apple-mobile-web-app-title" content="曲奇云盘" />
+    <meta name="apple-mobile-web-app-title" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
-     <!-- 腾讯验证码 -->
-    <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-
-    <script>
-        (function(w, d, s, q, i) {
-        w[q] = w[q] || [];
-        var f = d.getElementsByTagName(s)[0],j = d.createElement(s);
-        j.async = true;
-        j.id = 'beacon-aplus';
-        j.src = 'https://d.alicdn.com/alilog/mlog/aplus/' + i + '.js';
-        f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'aplus_queue', '203467608');
-        /************************以下内容为可选配置内容****************************/
-        //sdk提供手动pv发送机制，启用手动pv(即关闭自动pv)，需设置aplus-waiting=MAN;
-        //注意：由于单页面路由改变时不会刷新页面，无法自动发送pv，所以对于单页应用，强烈建议您关闭自动PV, 手动控制PV事件的发送时机N": N取值为300-3000之间的整数值 , 所有日志指令在SDK初始化完成后的N毫秒内将被hold在指令队列, 直至N毫秒等待结束；"MAN": 取消自动化PV日志采集. 设置为MAN之后, 所有PV日志均需手动触发, 但其他类型的事件日志不受影响
-        aplus_queue.push({
-            action: 'aplus.setMetaInfo',
-            // demo
-            // arguments: ['appKey', '628c7ea105844627b58f6041']
-            // 线上
-            arguments: ['appKey', '628c6deb88ccdf4b7e755fb0']
-        });
-        aplus_queue.push({
-            action: 'aplus.setMetaInfo',
-            arguments: ['aplus-waiting', 'MAN']
-        });
-        //是否开启调试模式 
-        aplus_queue.push({
-            action: 'aplus.setMetaInfo',
-            arguments: ['DEBUG', true]
-        });
-        /******************************************************************/
-    </script>
 </head>
 <body>
 </body>
