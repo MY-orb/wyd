@@ -1,0 +1,47 @@
+{
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "files.autoSave": "onFocusChange",
+  "gitlens.codeLens.scopes": ["document"],
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[less]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "stylelint.packageManager": "yarn",
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "cSpell.words": [
+    "EXIF",
+    "extinfo",
+    "intschool",
+    "lfit",
+    "Meiqia",
+    "mfit",
+    "qrcode",
+    "readonly",
+    "smartstudy",
+    "unmount",
+    "WEBP",
+    "wechat",
+    "Weixin",
+    "wxtag",
+    "xuanxiaodi"
+  ]
+}

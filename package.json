@@ -1,8 +1,12 @@
 {
+  "name": "wyd-frontend",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "umi dev",
+    "start": "cross-env PORT=10010 umi dev",
     "build": "umi build",
+    "build:beta": "cross-env UMI_ENV=beta umi build",
+    "build:pro": "cross-env UMI_ENV=pro umi build",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
@@ -12,35 +16,103 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
+    "*.{md,json}": [
       "prettier --write"
     ],
     "*.ts?(x)": [
-      "prettier --parser=typescript --write"
+      "eslint --fix"
+    ],
+    "*.js?(x)": [
+      "eslint --fix"
+    ],
+    "*.less": [
+      "stylelint --fix"
     ]
   },
   "dependencies": {
-    "@ant-design/icons": "^4.5.0",
-    "@ant-design/pro-layout": "^6.5.0",
     "@types/react-syntax-highlighter": "^13.5.0",
-    "@umijs/preset-react": "1.x",
-    "umi": "^3.3.7"
+    "@types/antd": "^1.0.0",
+    "@types/md5": "^2.3.2",
+    "@types/numeral": "^2.0.2",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "caniuse-lite": "^1.0.30001278",
+    "chalk": "^4.1.2",
+    "classnames": "^2.3.1",
+    "config": "^3.3.6",
+    "cross-env": "7.0.3",
+    "execa": "^5.1.1",
+    "figures": "^3",
+    "fs": "^0.0.1-security",
+    "html-to-image": "^1.9.0",
+    "js-base64": "^3.7.2",
+    "klaw": "^3.0.0",
+    "lodash": "^4.17.21",
+    "lru-cache": "^6.0.0",
+    "md5": "^2.3.0",
+    "mobx": "^6.3.2",
+    "mobx-react": "^7.2.0",
+    "moment": "^2.29.1",
+    "normalize.css": "^8.0.1",
+    "numeral": "^2.0.6",
+    "ora": "^5.4.1",
+    "p-limit": "^3.1.0",
+    "p-map": "^4",
+    "qs": "^6.10.1",
+    "react-dom": "17.x",
+    "react-markdown": "^5.0.3",
+    "react-router-config": "^5.1.1",
+    "remark-gfm": "^1.0.0",
+    "semver": "^7.3.5",
+    "smoothscroll-polyfill": "^0.4.4",
+    "socket.io-client": "2.1.1",
+    "umi": "^3.5.15",
+    "uuid": "^8.3.2",
+    "video.js": "^7.14.3",
+    "xxd-log": "^2.0.0",
+    "zlib": "^1.0.5"
   },
   "devDependencies": {
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "@types/react-highlight": "^0.12.2",
-    "@umijs/test": "^3.3.7",
-    "lint-staged": "^10.0.7",
-    "mobx": "^6.1.7",
-    "mobx-react": "^7.1.0",
-    "prettier": "^2.2.0",
-    "react": "17.x",
-    "react-dom": "17.x",
-    "typescript": "^4.1.2",
-    "react-markdown": "^5.0.3",
     "react-syntax-highlighter": "^15.4.3",
-    "remark-gfm": "^1.0.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@types/config": "^0.0.38",
+    "@types/koa": "^2.13.4",
+    "@types/lodash": "^4.14.170",
+    "@types/lru-cache": "^5.1.1",
+    "@types/p-map": "^2.0.0",
+    "@types/qs": "^6.9.6",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/semver": "^7.3.8",
+    "@types/smoothscroll-polyfill": "^0.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "@umijs/plugin-helmet": "^1.1.3",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^10.0.7",
+    "prettier": "^2.2.0",
+    "react-router": "^5.2.0",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-css-modules": "^2.2.0",
+    "stylelint-config-recess-order": "^2.4.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "typescript": "^4.1.2",
     "yorkie": "^2.0.0"
+  },
+  "standard-version": {
+    "scripts": {
+      "postbump": "git add ."
+    }
   }
 }

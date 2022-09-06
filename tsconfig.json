@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "importHelpers": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
@@ -20,7 +22,8 @@
     "src/**/*",
     "config/**/*",
     ".umirc.ts",
-    "typings.d.ts"
+    "typings.d.ts",
+    "types"
   ],
   "exclude": [
     "node_modules",

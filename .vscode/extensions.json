@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "clinyong.vscode-css-modules",
+    "dbaeumer.vscode-eslint",
+    "DigitalBrainstem.javascript-ejs-support",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "mrmlnc.vscode-less",
+    "MS-CEINTL.vscode-language-pack-zh-hans",
+    "redhat.vscode-commons",
+    "redhat.vscode-yaml",
+    "stylelint.vscode-stylelint",
+    "Gruntfuggly.todo-tree"
+  ]
+}

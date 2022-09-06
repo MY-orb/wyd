@@ -1,14 +1,14 @@
-import { history } from "umi";
-import styles from "./index.less";
-import { observer, useLocalObservable } from "mobx-react";
+import { history } from 'umi';
+import { observer, useLocalObservable } from 'mobx-react';
+import styles from './index.less';
 
 const storeInitial = {
-  context: "test",
+  context: 'test',
   setContext(str: string) {
     this.context = str;
   },
   goHome() {
-    history.push("/home");
+    history.push('/home');
   },
 };
 
@@ -21,7 +21,7 @@ const IndexPage = observer(() => {
           <div>
             <img
               className={styles.img}
-              src={"https://my-orb.github.io/wyd/static/avatar.png"}
+              src={'https://my-orb.github.io/wyd/static/avatar.png'}
             />
           </div>
           <div>
@@ -44,7 +44,7 @@ const IndexPage = observer(() => {
               <p
                 className={styles.goBlog}
                 onClick={() => {
-                  window.open("https://github.com/MY-orb");
+                  window.open('https://github.com/MY-orb');
                 }}
               >
                 GitHub： MY-orb
@@ -149,7 +149,7 @@ const IndexPage = observer(() => {
 
             <p className={styles.rightTitle}>教育经历-</p>
             <p className={styles.companyName}>
-              信阳师范学院 本科 电子科学与技术 2013-2017{" "}
+              信阳师范学院 本科 电子科学与技术 2013-2017{' '}
             </p>
           </div>
         </div>

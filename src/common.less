@@ -1,0 +1,60 @@
+
+// 按钮置灰
+.disabled {
+  opacity: 0.4;
+}
+
+/*
+多行省略
+
+IE 不支持 @supports 和 line-clamp 属性
+火狐 不支持 line-clamp 属性
+*/
+.clamp(@clamp: 1) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: normal;
+  -webkit-line-clamp: @clamp;
+
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical; // 参考 https://github.com/postcss/autoprefixer/issues/776
+
+  /* autoprefixer: on */
+}
+
+// 单行省略
+.oneLine(@display: block) {
+  display: @display;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 公共类名样式
+.flex {
+  display: flex;
+}
+
+.flexCenterBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+}
+
+.flexCenterCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .tabbarBox {
+//   .safeBottom(5.5rem, margin-bottom);
+// }
